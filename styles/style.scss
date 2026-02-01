@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     color: #cbd5f5;
+    
 }
 
 body {
@@ -36,6 +37,12 @@ body {
             background-color: rgb(8, 90, 200);
             transition: 1s;
 
+        }
+        a{
+
+            list-style: none;
+            text-decoration: none;
+            color: #ffffff;
         }
         
     }
@@ -95,6 +102,7 @@ img {
     display: flex;
     gap: 20px;
     color: #cbd5f5;
+    scroll-behavior: smooth;
 }
 
 .Stacktech {
@@ -106,6 +114,7 @@ img {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    scroll-behavior: smooth;
     h2 {
         color: #f8fafc;
     }
@@ -147,6 +156,10 @@ img {
     .hero button {
         width: 50%;
         margin: 20px 0 10px 0;
+        a{
+            list-style: none;
+            text-decoration: none;
+        }
     }
 }
 .form{
@@ -181,4 +194,7 @@ img {
 
 #scrollTopBtn:hover {
   transform: translateY(-3px);
+}
+section{
+    scroll-behavior: smooth;
 }

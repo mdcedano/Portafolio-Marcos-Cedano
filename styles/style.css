@@ -39,6 +39,11 @@ body {
   background-color: rgb(8, 90, 200);
   transition: 1s;
 }
+.hero button a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
 
 .about {
   padding: 50px;
@@ -94,6 +99,7 @@ img {
   display: flex;
   gap: 20px;
   color: #cbd5f5;
+  scroll-behavior: smooth;
 }
 
 .Stacktech {
@@ -105,6 +111,7 @@ img {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  scroll-behavior: smooth;
 }
 .about-proyects h2 {
   color: #f8fafc;
@@ -146,6 +153,10 @@ img {
     width: 50%;
     margin: 20px 0 10px 0;
   }
+  .hero button a {
+    list-style: none;
+    text-decoration: none;
+  }
 }
 .form {
   display: flex;
@@ -179,4 +190,8 @@ img {
 
 #scrollTopBtn:hover {
   transform: translateY(-3px);
+}
+
+section {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=style.css.map */
